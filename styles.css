@@ -1,52 +1,44 @@
-body { 
-     background-color: #cfc0c0dc;    
+body{
+    background-color: rgb(206, 197, 197);
+    margin: 0;
 }
-.nav { 
-    padding: 25px;
-    display: inline-flex
-
+div{
+    box-sizing: border-box;
 }
-
-#main-content { 
-    background-color: ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.post { 
+header{
     background-color: white;
-     width: 50%; 
-     margin: 50px 0px;
+    padding: 10px;
 }
-.title {
-    display: flex; 
-    justify-content: space-between;
-    padding: 25px;
+header h1{
+    margin: 0;
+    text-align: center;
 }
-.picture { 
-    align-items: center;
-    display: flex;
-    justify-content: space-around ;
-   
+div.post{
+    background-color:white;
+    margin-top: 10px;
 }
-#picture-aling { 
-    padding: 2px;
-    width: 500px;
-    height: 350px;
+div.post img{
+    width: 100%;
 }
-#parrafos { 
-    padding: 20px;
+div.post h2, div.post p{
+    padding: 10px;
 }
-.instagram {
-    background-color:;
-    color: gray);
-    text-align: left;
-    font-family: 'Cookie', cursive;
-    display: flex;
+div.container{
+  width: 600px;
+  margin: auto;
+  padding-top: 20px;
+}
+h2{
+    float: left;
+    display: inline-block;
     justify-content: space-between;
 }
-
-#right-buttom {
+span{
+    padding-top: 35px;
     padding-right: 10px;
+    float: right;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: right;
+    color: gray;
 }
-  
